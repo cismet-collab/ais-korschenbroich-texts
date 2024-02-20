@@ -17,24 +17,26 @@ const Component = ({ email }) => {
           <p>
             Für telefonische Auskünfte zum Umgang mit dem Auskunfts- und
             Informationssystem Starkregen (AIS) stehen Ihnen die
-            Mitarbeiterinnen und Mitarbeiter der cismet GmbH zur Verfügung.
+            Mitarbeiterinnen und Mitarbeiter der Stadt Korschenbroich/SEK zur Verfügung.
           </p>
           <p>
             Weitere Informationen zum Thema „Schutz vor Starkregen“ finden Sie
-            auf der Homepage der Dr. Pecher AG.
+            auf der Homepage der Stadt Korschenbroich.
           </p>
 
           <p style={{ display: "flex" }}>
             <div>
-              Stadt
+              Stadt Korschenbroich
               <br />
-              Abteilung
+              Städtischer Entwässerungsbetrieb Korschenbroich
               <br />
-              Straße
+              Wankelstraße 21
               <br />
-              PLZ Stadt
+              41352 Korschenbroich/Glehn
               <br />
-              Telefon: 0000 000000
+              Ansprechpartner: Frau Türks
+              <br />
+              Telefon: 02182/5702-340
               <br />
               E-Mail: <a href="mailto:{email)}">{email}</a>
               <br />
