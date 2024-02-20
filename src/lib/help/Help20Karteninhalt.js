@@ -16,7 +16,7 @@ const Component = () => {
       sectionContent={
         <div>
           <p>
-            Die Starkregengefahrenkarte unterstützt drei verschiedene
+            Die Starkregengefahrenkarte unterstützt zwei verschiedene
             Kartenansichten. In der stets sichtbaren Titelzeile oben im
             Kartenfenster wird Ihnen die gerade aktive Kartenansicht angezeigt.
             Standardmäßig werden die maximalen Wassertiefen dargestellt, die im
@@ -35,7 +35,7 @@ const Component = () => {
             <b>Kontrollfeld</b>, mit dem Sie den weiteren Karteninhalt nach
             Ihren Wünschen festlegen können. Klicken Sie unter <b>Simulation</b>{" "}
             auf eine der zwei Schaltflächen, um die Starkregensimulation
-            auszuwählen, die angezeigt werden soll (Stärke 7, Stärke 10).
+            auszuwählen, die angezeigt werden soll (Stärke 7, Stärke 11).
             Details zu den Simulationsberechnungen finden Sie hier in der
             Kompaktanleitung unter{" "}
             <a onClick={() => setAppMenuActiveMenuSection("datengrundlage")}>
@@ -49,11 +49,11 @@ const Component = () => {
           </p>
           <p>
             Unter <b>Karte</b> können Sie aus drei verschiedenen
-            Hintergrundkarten auswählen: zwei unterschiedlichen Stadtplänen
-            (grau/farbig) und einer Luftbildkarte. Ein Stadtplan eignet sich gut
+            Hintergrundkarten auswählen: aus einem Stadtplan (grau) auf Basis der OpenStreetMap, einer Luftbildkarte und der digitalen topographischen Karte. 
+            Ein Stadtplan eignet sich gut
             zur Orientierung anhand von Straßen. Die Luftbildkarte stellt eine
             anschauliche Grundlage dar. Sie eignet sich daher vor allem für die
-            Darstellung räumlicher Zusammenhänge und Nutzungen. Da die
+            Darstellung räumlicher Zusammenhänge und Nutzungen. Die Darstellung der topographischen Karte ermöglicht zudem eine Betrachtung der Flurstücke. Da die
             Hintergrundkartendienste immer wieder aktualisiert werden, kann es
             in Einzelfällen zu geringen Abweichungen zu der Datengrundlage des
             Simualtionsmodells kommen, bis dieses ebenfalls mit den neuen
