@@ -63,10 +63,9 @@ const Component = () => {
             </li>
 
             <li>
-              Das Kanalnetz wurde vereinfacht über einen Verlustansatz
-              berücksichtigt. Zu detaillierten Wirkungen von Abflüssen innerhalb
-              des Kanalnetzes liegen in den Kommunen ggf. gesonderte
-              Fachberechnungen vor. Die dargestellten Starkregen zeichnen sich
+            Das Kanalnetz wurde über die Berücksichtigung von Kanalnetzüberstau abgebildet. 
+              Dazu wurden die Ergebnisse von Kanalnetzberechnungen ausgewertet. Zu der detaillierten Wirkung von Abflüssen innerhalb des Kanalnetzes hat der SEK gesonderte Fachberechnungen vorliegen. 
+              Die dargestellten Starkregen zeichnen sich
               durch hohe Regenintensitäten oberhalb der Bemessungsgrenze des
               Kanalnetzes aus. Über das Kanalnetz kann zwar ein gewisses
               Niederschlagsvolumen aufgenommen und abgeführt werden, allerdings
@@ -75,6 +74,14 @@ const Component = () => {
               dargestellten Starkregen große Anteile oberirdisch ab oder können
               nicht mehr in das Kanalnetz eintreten.
             </li>
+
+            <li>
+            Lokale Verhältnisse sind immer zur prüfen. Dabei sind auch die Funktion und Wirkung von Grundstücksentwässerungsanlagen zu berücksichtigen. 
+            Diese können im Modell für das gesamte Stadtgebiet nicht berücksichtigt werden. Die Abbildung von bereits getroffenen Maßnahmen wie 
+            Fließhindernisse (z. B. Mauern) in unmittelbarer Nähe zum Gebäude oder Entwässerungsanlagen auf dem Grundstück
+            sollte ortsspezifisch ebenfalls überprüft werden.
+            </li>
+
           </ul>
 
           <p>
@@ -83,7 +90,7 @@ const Component = () => {
               und Fehler im Geländemodell können dazu führen, dass es zu
               Abweichungen zwischen den Simulationsergebnissen und beobachteten
               Überflutungen infolge von Starkregen kommen kann. Niederschläge
-              der Stufe SRI 7 bzw. 9/10 können daher je nach Randbedingungen in
+              der Stufe SRI 7 bzw. 11 können daher je nach Randbedingungen in
               der Realität auch etwas geringere oder höhere Wassertiefen auf der
               Geländeoberfläche zur Folge haben.
             </strong>{" "}
@@ -94,40 +101,6 @@ const Component = () => {
             Überflutungen im Modell auf. Je nach Betroffenheit und
             Schadenspotential lassen sich auf dieser Grundlage Vorsorgemaßnahmen
             bewerten.
-          </p>
-
-          <p>
-            <strong>
-              {" "}
-              Bitte berücksichtigen Sie, dass die Ergebnisse des dritten
-              Szenarios (Simulation des Extremereignisses vom 14. Juli 2021)
-              nicht unmittelbar mit den Ergebnissen der Modellregen (Szenario 1
-              und 2) verglichen werden können.{" "}
-            </strong>{" "}
-            Das Niederschlagsereignis im Juli 2021 war ein Ausnahmeereignis,
-            welches aus infolge vieler Randbedingungen und Umstände entstanden
-            ist. Alle Randbedingungen können im Modell nicht abgebildet werden.
-            Die Simulationsergebnisse jenes Niederschlages basieren entsprechend
-            lediglich auf der Grundlage des Niederschlagsverlaufes, der damals
-            stattgefunden hat. Weitere hydrologische Grundlagen, wie bspw.
-            Hochwassereinflüsse oder besondere Umstände, die bspw. zu Zerstörung
-            von Brücken oder Gebäuden geführt haben, können nicht abgebildet
-            werden und die Ergebnisse beeinflussen. Bereiche in der Nähe großer
-            Gewässer oder jener Gewässer, die unter besonderem
-            Hochwassereinfluss stehen können, sollten grundsätzlich nur unter
-            Hinzunahme und Berücksichtigung der geltenden
-            Hochwassergefahrenkarten, welche in einem Layer in der Darstellung
-            ergänzt werden können, interpretiert werden. Weiterhin ist zu
-            bedenken, dass das für die Simulation verwendete Geländemodell aus
-            Befliegungsdaten stammt, die nach der Flut aufgenommen wurden. Auch
-            hier können daher Differenzen zwischen den Simulationsergebnissen
-            und den damaligen Folgen und Geschehnissen auftreten. Bereiche, in
-            denen infolge der Flut derzeit große, für das Abflussgeschehen
-            bedeutsame Maßnahmen in Umsetzung sind, werden daher in der Karte
-            mit einem extra Layer abgedeckt, um Irritationen und
-            Missverständnisse zu vermeiden. Wir möchten betonen, dass der Fokus
-            dieser Karte auf der Starkregenvorsorge liegt und nicht auf der
-            Reproduktion bzw. Imitation des realen Ereignisses von 2021.
           </p>
           <p>
             Da nicht alle kleinräumigen Strukturen im Digitalen Geländemodell
