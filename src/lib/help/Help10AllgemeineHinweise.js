@@ -51,7 +51,7 @@ const Component = () => {
 
           <p>
             Der Farbverlauf für die <strong>Wassertiefen</strong> nutzt die
-            Eckwerte 10 cm (hellblau), 20 cm (blau), 30 cm (dunkelblau), 50 cm (blauviolett)  und 100 cm
+            Eckwerte 10 cm (hellblau), 20 cm (blau), 30 cm (dunkelblau), 50 cm (blauviolett) und 100 cm
             (violett). Wassertiefen unter 5 cm werden nicht mehr farbig ausgeprägt
             (transparente Darstellung). Zur Visualisierung der{" "}
             <strong>Fließgeschwindigkeiten</strong>, angegeben in Meter pro

@@ -45,7 +45,7 @@ const Component = () => {
             maximalen Fließgeschwindigkeiten erfolgt in der Einheit "Meter pro
             Sekunde" (m/s), gerundet auf eine Nachkommastelle.
             Fließgeschwindigkeiten von mehr als 3 Meter pro Sekunde werden als
-            "> 3 m/s" angezeigt.
+            "> 2 m/s" angezeigt.
           </p>
           <p>
             <b>Tipp für die Abfrage der maximalen Fließgeschwindigkeiten:</b>{" "}
