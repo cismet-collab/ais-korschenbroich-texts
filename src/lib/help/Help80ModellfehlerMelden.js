@@ -48,9 +48,9 @@ const Component = ({ defaultContextValues = {}, email }) => {
             Kartenfenster öffnen Sie das auf Ihrem Rechner eingerichtete
             E-Mail-Programm mit dem Gerüst einer Nachricht an{" "}
             <a href="mailto:starkregen@cismet.de">starkregen@cismet.de</a>. Über
-            diese Funktionsadresse sprechen Sie eine Gruppe von Experten:innen
+            diese Adresse sprechen Sie die Ansprechpartnerin beim SEK
             an. Das automatisch erzeugte E-Mail-Gerüst enthält einen Link, mit
-            dem diese Experten:innen die Starkregengefahrenkarte genau in dem
+            dem die Ansprechpartnerin beim SEK die Starkregengefahrenkarte genau in dem
             Zustand öffnen können, den Sie eingestellt haben. Bitte ergänzen Sie
             Ihre E-Mail mit einer kurzen Darstellung des vermuteten Fehlers. Wo
             wurde vermutlich ein wichtiger Gewässerdurchlass o. Ä. übersehen?
