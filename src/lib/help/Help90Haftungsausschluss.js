@@ -14,7 +14,7 @@ const Component = ({ appName }) => {
       sectionContent={
         <div>
           <p>
-            Alle Informationen zur Anwendung des "AIS Starkregenvorsorge"
+            Alle Informationen zur Anwendung des "AIS Starkregenvorsorge Stadt Korschenbroich"
             erfolgen ohne Gewähr für ihre Richtigkeit. Es fällt in die
             Verantwortung der Betrachter:innen, aus den dargestellten
             Informationen die spezifische Gefährdungslage einzuschätzen und
