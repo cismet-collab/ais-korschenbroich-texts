@@ -28,15 +28,13 @@ const Component = ({ email }) => {
             <div>
               Stadt Korschenbroich
               <br />
-              Städtischer Entwässerungsbetrieb Korschenbroich
+              Städtischer Entsorgungsbetrieb Korschenbroich
               <br />
               Wankelstraße 21
               <br />
-              41352 Korschenbroich/Glehn
+              41352 Korschenbroich
               <br />
-              Ansprechpartner: Frau Türks
-              <br />
-              Telefon: 02182/5702-340
+              Telefon: 02182/5702-0
               <br />
               E-Mail: <a href="mailto:{email)}">{email}</a>
               <br />
