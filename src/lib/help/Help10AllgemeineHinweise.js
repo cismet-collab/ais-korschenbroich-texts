@@ -25,7 +25,7 @@ const Component = () => {
           <p>
             Die Starkregengefahrenkarte im AIS Starkregenvorsorge Korschenbroich stellt in zwei
             umschaltbaren Kartenansichten maximale Wassertiefen bzw. maximale
-            Fließgeschwindigkeiten im gesamten Gültigkeitsgebiet dar, die im
+            Fließgeschwindigkeiten im gesamten Stadtgebiet dar, die im
             Verlauf von zwei simulierten Starkregenszenarien berechnet wurden.
             Bei den Ergebnissen handelt es sich um eine modelltechnische
             Untersuchung des Stadtgebiets mit dem Ziel die Realität
@@ -51,7 +51,7 @@ const Component = () => {
 
           <p>
             Der Farbverlauf für die <strong>Wassertiefen</strong> nutzt die
-            Eckwerte 10 cm (hellblau), 20 cm (blau), 30 cm (dunkelblau), 50 cm (blauviolett) und 100 cm
+            Eckwerte 10 cm (hellblau), 30 cm (blau), 50 cm (dunkelblau) und 100 cm
             (violett). Wassertiefen unter 5 cm werden nicht mehr farbig ausgeprägt
             (transparente Darstellung). Zur Visualisierung der{" "}
             <strong>Fließgeschwindigkeiten</strong>, angegeben in Meter pro
@@ -63,7 +63,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden durch das
-            Ingenieurbüro Dr. Pecher AG (Erkrath/Gelsenkirchen) im Auftrag der Stadt Korschenbroich durchgeführt.
+            Ingenieurbüro Dr. Pecher AG (Erkrath/Gelsenkirchen) im Auftrag der Stadt Korschenbroich / Städtischer Entsorgungsbetrieb SEK durchgeführt.
           </p>
 
           <p>
