@@ -56,7 +56,7 @@ const Component = () => {
             Darstellung räumlicher Zusammenhänge und Nutzungen. Die Darstellung der topographischen Karte ermöglicht zudem eine Betrachtung der Flurstücke. Da die
             Hintergrundkartendienste immer wieder aktualisiert werden, kann es
             in Einzelfällen zu geringen Abweichungen zu der Datengrundlage des
-            Simualtionsmodells kommen, bis dieses ebenfalls mit den neuen
+            Simulationsmodells kommen, bis dieses ebenfalls mit den neuen
             Gebäuden/Objekten fortgeschrieben wird. Näheres zu den Geodaten, die
             diesen Karten zu Grunde liegen, finden Sie ebenfalls unter{" "}
             <a onClick={() => setAppMenuActiveMenuSection("datengrundlage")}>
