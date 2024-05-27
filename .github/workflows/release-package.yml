@@ -28,7 +28,7 @@ jobs:
           git config --global user.email "902348742+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Actions"
       - name: Change release version
-        run: npm version ${{ env.RELEASE_TYPE }}
+        run: npm version ${{ env.RELEASE_TYPE }} --no-git-tag-version
         env:
           RELEASE_TYPE: ${{ github.event.inputs.release-type }}
       - name: Install Packages
@@ -43,18 +43,26 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push changes to dev branch
         run: git push origin dev
-      - name: Checkout main branch and reset to dev
+      - name: Commit changes in dev branch
+        run: |
+          git add .
+          git commit -m "Release version update"
+          git push origin dev
+      - name: Checkout main branch and merge dev
         run: |
           git fetch --all
           git checkout main
-          git reset --hard origin/dev
-      - name: Push changes to main branch
-        run: git push --force origin main
-      - name: Create and push tag to main
+          git merge dev --no-ff --allow-unrelated-histories --strategy-option=theirs -m "Merge dev to main with new release version"
+      - name: Create and push tag
         run: |
           VERSION=$(node -p "require('./package.json').version")
           git tag v$VERSION
           git push origin v$VERSION
+      - name: Reset main branch to dev
+        run: |
+          git reset --hard origin/dev
+      - name: Push changes to main branch
+        run: git push --force origin main
       # Additional steps for deployment and build process
       # copied from gh-pages
       - name: prepare 0
