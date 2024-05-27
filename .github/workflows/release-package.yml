@@ -43,6 +43,11 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push changes to dev branch
         run: git push origin dev
+      - name: Commit changes in dev branch
+        run: |
+          git add .
+          git commit -m "Release version update"
+          git push origin dev
       - name: Checkout main branch and merge dev
         run: |
           git fetch --all
