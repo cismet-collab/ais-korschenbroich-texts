@@ -36,7 +36,7 @@ const Component = () => {
               Varianz der Simulationsergebnisse
             </a>{" "}
             zu verdeutlichen. Aus demselben Grund werden berechnete Wassertiefen
-            von mehr als 150 cm nur als "> 150 cm" angezeigt. Bitte beachten
+            von mehr als 150 cm nur als "&lt; 150 cm" angezeigt. Bitte beachten
             Sie, dass in der online-Karte Wassertiefen kleiner als 5 cm
             transparent dargestellt sind, um die Aufmerksamkeit auf die
             kritischeren Bereiche zu lenken. Überflutungsgefahren können auch in
@@ -45,7 +45,7 @@ const Component = () => {
             maximalen Fließgeschwindigkeiten erfolgt in der Einheit "Meter pro
             Sekunde" (m/s), gerundet auf eine Nachkommastelle.
             Fließgeschwindigkeiten von mehr als 2 Meter pro Sekunde werden als
-            "> 2 m/s" angezeigt.
+            "&lt; 2 m/s" angezeigt.
           </p>
           <p>
             <b>Tipp für die Abfrage der maximalen Fließgeschwindigkeiten:</b>{" "}
