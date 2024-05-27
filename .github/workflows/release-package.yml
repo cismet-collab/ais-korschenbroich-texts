@@ -43,18 +43,21 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push changes to dev branch
         run: git push origin dev
-      - name: Checkout main branch and reset to dev
+      - name: Checkout main branch and merge dev
         run: |
           git fetch --all
           git checkout main
-          git reset --hard origin/dev
-      - name: Push changes to main branch
-        run: git push --force origin main
-      - name: Create and push tag to main
+          git merge dev --no-ff --allow-unrelated-histories --strategy-option=theirs -m "Merge dev to main with new release version"
+      - name: Create and push tag
         run: |
           VERSION=$(node -p "require('./package.json').version")
           git tag v$VERSION
           git push origin v$VERSION
+      - name: Reset main branch to dev
+        run: |
+          git reset --hard origin/dev
+      - name: Push changes to main branch
+        run: git push --force origin main
       # Additional steps for deployment and build process
       # copied from gh-pages
       - name: prepare 0
