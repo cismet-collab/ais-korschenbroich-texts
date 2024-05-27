@@ -31,14 +31,6 @@ jobs:
         run: yarn install
       - name: Build the package
         run: yarn build:package
-      - name: .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISHING_TOKEN }}" > dist/.npmrc
-      - name: Publish the package
-        run: cd dist && npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Push changes to dev branch
-        run: git push origin dev
       - name: Checkout main branch and merge dev
         run: |
           git fetch --all
@@ -58,6 +50,12 @@ jobs:
           git merge main --no-ff --strategy-option=theirs -m "Merge main back to dev with new release version"
       - name: Push changes to dev branch
         run: git push origin dev
+      - name: .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISHING_TOKEN }}" > dist/.npmrc
+      - name: Publish the package
+        run: cd dist && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Additional steps for deployment and build process
       # copied from gh-pages
       - name: prepare 0
