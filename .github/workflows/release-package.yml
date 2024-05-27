@@ -52,6 +52,8 @@ jobs:
         run: git push origin dev
       - name: .npmrc
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISHING_TOKEN }}" > dist/.npmrc
+      - name: Build the package to have the proper version
+        run: yarn build:package
       - name: Publish the package
         run: cd dist && npm publish --access public
         env:
