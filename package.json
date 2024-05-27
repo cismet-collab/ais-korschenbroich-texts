@@ -2,7 +2,7 @@
   "name": "@cismet-collab/ais-korschenbroich-texts",
   "description": "base text library for creating rainhazardmaps help components",
   "license": "MIT",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "homepage": ".",
   "main": "index.js",
   "module": "index.js",
