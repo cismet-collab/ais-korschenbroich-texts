@@ -35,7 +35,7 @@ jobs:
         run: |
           git fetch --all
           git checkout main
-          git merge origin/dev --no-ff --strategy-option=the
+          git merge origin/dev --no-ff --strategy-option=theirs
       - name: Change release version and create tag
         run: npm version ${{ env.RELEASE_TYPE }}
         env:
