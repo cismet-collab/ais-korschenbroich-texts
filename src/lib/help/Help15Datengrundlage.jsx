@@ -18,7 +18,7 @@ const Component = () => {
         <div>
           <p>
             Die Modellgrundlagen und -annahmen beeinflussen die Ergebnisse
-            maßgeblich. Die hierausresultierende{" "}
+            maßgeblich. Die hieraus resultierende{" "}
             <a
               className="renderAsLink"
               onClick={() => setAppMenuActiveMenuSection("aussagekraft")}
@@ -43,7 +43,7 @@ const Component = () => {
             Das Oberflächenmodell wurde anschließend um wichtige verrohrte
             Gewässerabschnitte sowie Geländedurchlässe ergänzt, um eine hydrologisch 
             korrekte Abbildung von potenziellen Fließwegen zu gewährleisten. In diesem
-            Rahmen wurden auch weitere Fließhindernisse wie z. B. Mauern ergänzt
+            Rahmen wurden auch weitere Fließhindernisse, wie z. B. Mauern, ergänzt
             und maßgebliche siedlungswasserwirtschaftliche Bauwerke (Hochwasser-
             und Regenrückhaltebecken) mit ihrer Wirkung im Oberflächenmodell
             abgebildet. Zusätzlich wurden die Gebäude auf Aktualität geprüft und
