@@ -58,7 +58,7 @@ const Component = () => {
           <p>
             Grundlage für die Modellanpassungen waren die kommunal verfügbaren
             Datensätze, Ortsbegehungen im Stadtgebiet und eine Prüfung durch
-            Mitarbeiterinnen und Mitarbeiter des Städtischen Entworgungsbetriebs Korschenbroich (SEK).
+            Mitarbeiterinnen und Mitarbeiter des Städtischen Entsorgungsbetriebs Korschenbroich (SEK).
           </p>
 
           <p>Welche Daten wurden berücksichtigt?</p>
@@ -66,7 +66,7 @@ const Component = () => {
           <ul>
             <li>
               Landesweite Daten / Bezirksregierung Köln: Digitales
-              Geländemodell, Digitales Lanschaftsmodell, ALKIS-Daten,
+              Geländemodell, Digitales Landschaftsmodell, ALKIS-Daten,
               ELWAS-Daten (Datenlizenz Deutschland Zero
               (https://www.govdata.de/dl-de/zero-2-0))
             </li>
