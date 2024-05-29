@@ -40,14 +40,14 @@ const Component = () => {
               Variable Anteile des Regenwassers versickern oder verdunsten in
               der Realität. Für die Simulationen wurden räumlich verteilte
               Versickerungseffekte angesetzt. Die Versickerung ist jedoch stark
-              von den Ausgangsbedingungen abhängig. Hat es bpsw. vor einem
+              von den Ausgangsbedingungen abhängig. Hat es bspw. vor einem
               Starkregen bereits geregnet, versickert weniger Wasser. Ist der
               Boden andersherum zu trocken, ist die Anfangsinfiltration sehr
               gering, d. h. dass auch dann zunächst weniger Wasser versickert
               und mehr Wasser abflusswirksam wird. Insbesondere in den nicht
               befestigten Außenbereichen sind diese Variationen und
               Einflussmöglichkeiten zu berücksichtigen. Weitere hydrologische
-              Prozesse, z. B. Interzeption, werden nicht berücksichitgt. Die
+              Prozesse, z. B. Interzeption, werden nicht berücksichtigt. Die
               Verdunstung spielt bei den hier betrachteten kurzen Niederschlägen
               nur eine untergeordnete Rolle.
             </li>
