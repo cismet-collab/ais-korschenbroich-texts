@@ -18,7 +18,7 @@ const Component = () => {
         <div>
           <p>
             Die Modellgrundlagen und -annahmen beeinflussen die Ergebnisse
-            maßgeblich. Die hierausresultierende{" "}
+            maßgeblich. Die hieraus resultierende{" "}
             <a
               className="renderAsLink"
               onClick={() => setAppMenuActiveMenuSection("aussagekraft")}
@@ -43,7 +43,7 @@ const Component = () => {
             Das Oberflächenmodell wurde anschließend um wichtige verrohrte
             Gewässerabschnitte sowie Geländedurchlässe ergänzt, um eine hydrologisch 
             korrekte Abbildung von potenziellen Fließwegen zu gewährleisten. In diesem
-            Rahmen wurden auch weitere Fließhindernisse wie z. B. Mauern ergänzt
+            Rahmen wurden auch weitere Fließhindernisse, wie z. B. Mauern, ergänzt
             und maßgebliche siedlungswasserwirtschaftliche Bauwerke (Hochwasser-
             und Regenrückhaltebecken) mit ihrer Wirkung im Oberflächenmodell
             abgebildet. Zusätzlich wurden die Gebäude auf Aktualität geprüft und
@@ -58,7 +58,7 @@ const Component = () => {
           <p>
             Grundlage für die Modellanpassungen waren die kommunal verfügbaren
             Datensätze, Ortsbegehungen im Stadtgebiet und eine Prüfung durch
-            Mitarbeiterinnen und Mitarbeiter des Städtischen Entworgungsbetriebs Korschenbroich (SEK).
+            Mitarbeiterinnen und Mitarbeiter des Städtischen Entsorgungsbetriebs Korschenbroich (SEK).
           </p>
 
           <p>Welche Daten wurden berücksichtigt?</p>
@@ -66,7 +66,7 @@ const Component = () => {
           <ul>
             <li>
               Landesweite Daten / Bezirksregierung Köln: Digitales
-              Geländemodell, Digitales Lanschaftsmodell, ALKIS-Daten,
+              Geländemodell, Digitales Landschaftsmodell, ALKIS-Daten,
               ELWAS-Daten (Datenlizenz Deutschland Zero
               (https://www.govdata.de/dl-de/zero-2-0))
             </li>

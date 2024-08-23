@@ -20,6 +20,7 @@ import Help98Kontakt from "./help/Help98Kontakt";
 
 const getCollabedHelpComponentConfig = ({
   version,
+  versionString,
   reactCismapRHMVersion,
   footerLogoUrl,
   email,
@@ -42,7 +43,21 @@ const getCollabedHelpComponentConfig = ({
   ];
   const menuFooter = (
     <Help99Footer
+      hintergrundkartenText="OSM light @ cismet | DOP © Geobasis NRW | Stadtkarte 2.0 © RVR | DTK Sammeldienst © Geobasis NRW"
+      taglineModelling={
+        <div>
+          <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.0 | 2/2024):{" "}
+          <a target="_korschenbroich" href="https://korschenbroich.de/">
+            Stadt Korschenbroich
+          </a>{" "}
+          |{" "}
+          <a target="_pecher" href="https://www.pecher.de/">
+            Dr. Pecher AG (Gelsenkirchen/Erkrath)
+          </a>
+        </div>
+      }
       version={version}
+      versionString={versionString}
       reactCismapRHMVersion={reactCismapRHMVersion}
       logoUrl={footerLogoUrl}
     />

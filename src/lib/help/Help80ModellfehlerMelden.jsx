@@ -47,11 +47,10 @@ const Component = ({ defaultContextValues = {}, email }) => {
             Geländemodell melden" <Icon name="comment" /> links oben im
             Kartenfenster öffnen Sie das auf Ihrem Rechner eingerichtete
             E-Mail-Programm mit dem Gerüst einer Nachricht an{" "}
-            <a href="mailto:starkregen@cismet.de">starkregen@cismet.de</a>. Über
-            diese Adresse sprechen Sie die Ansprechpartnerin beim SEK
-            an. Das automatisch erzeugte E-Mail-Gerüst enthält einen Link, mit
+            <a href="mailto:starkregen@cismet.de">starkregen@cismet.de</a>. 
+            Das automatisch erzeugte E-Mail-Gerüst enthält einen Link, mit
             dem die Ansprechpartnerin beim SEK die Starkregengefahrenkarte genau in dem
-            Zustand öffnen können, den Sie eingestellt haben. Bitte ergänzen Sie
+            Zustand öffnen kann, den Sie eingestellt haben. Bitte ergänzen Sie
             Ihre E-Mail mit einer kurzen Darstellung des vermuteten Fehlers. Wo
             wurde vermutlich ein wichtiger Gewässerdurchlass o. Ä. übersehen?
           </p>
