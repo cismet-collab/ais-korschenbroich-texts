@@ -49,8 +49,8 @@ const Component = () => {
           </p>
           <p>
             Unter <b>Karte</b> können Sie aus drei verschiedenen
-            Hintergrundkarten auswählen: aus einem Stadtplan (grau) auf Basis der OpenStreetMap, einer Luftbildkarte und der digitalen topographischen Karte. 
-            Ein Stadtplan eignet sich gut
+            Hintergrundkarten auswählen: aus einer Basemap (bunt), einer Luftbildkarte und der digitalen topographischen Karte. 
+            Die Basemap eignet sich gut
             zur Orientierung anhand von Straßen. Die Luftbildkarte stellt eine
             anschauliche Grundlage dar. Sie eignet sich daher vor allem für die
             Darstellung räumlicher Zusammenhänge und Nutzungen. Die Darstellung der topographischen Karte ermöglicht zudem eine Betrachtung der Flurstücke. Da die
@@ -63,6 +63,10 @@ const Component = () => {
               Datengrundlagen
             </a>
             .
+          </p>
+          <p>
+            Über jeder Hintergrundkarte wird das Kanalnetz (Haltungen und Schachtbauwerke) dargestellt. Durch Anklicken der Schachtbauwerke (Punkte) können weitere Informationen zum Schacht abgefragt werden.
+            Es wird zum einen die Schachtbezeichnung und zum anderen die Schachtdeckelhöhe [m ü. NHN] angezeigt.
           </p>
           <p>
             Unter <b>Animation</b> finden Sie einen Wechselschalter zum An- und

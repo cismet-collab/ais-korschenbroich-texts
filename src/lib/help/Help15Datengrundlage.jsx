@@ -85,25 +85,19 @@ const Component = () => {
           </p>
           <ul>
             <li>
-              <strong>Stadtplan (grau)</strong>: Kartendienst (vektorbasiert)
-              der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
-              Wöchentlich in einem automatischen Prozess aktualisierte
-              Bereitstellung der OpenStreetMap als Vektorlayer mit der
-              OpenMapTiles-Server-Technologie. Lizenzen der Ausgangsprodukte:{" "}
+              <strong>Basiskarte (bunt)</strong>: Quellenvermerk DL-DE->BY-2.0: © GeoBasis-DE / 
               <a
                 target="_legal"
-                href="https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md"
+                href="https://www.bkg.bund.de"
               >
-                Openmaptiles
-              </a>{" "}
-              und{" "}
+                BKG
+              </a> (2024) 
               <a
                 target="_legal"
-                href="https://www.opendatacommons.org/licenses/odbl/1.0/"
+                href="https://www.govdata.de/dl-de/by-2-0"
               >
-                ODbL
-              </a>{" "}
-              (OpenStreetMap contributors).
+                dl-de/by-2-0
+              </a>
             </li>
             <li>
               <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) des Landes NRW.
