@@ -56,7 +56,7 @@ const Component = () => {
             (transparente Darstellung). Zur Visualisierung der{" "}
             <strong>Fließgeschwindigkeiten</strong>, angegeben in Meter pro
             Sekunde (m/s), werden die Eckwerte 0,3 m/s (gelb), 0,5 m/s (orange),
-            1,0 m/s (hellrot) und 2,0 m/s (dunkelrot) verwendet. Der untere
+            1,3 m/s (hellrot) und 2,0 m/s (dunkelrot) verwendet. Der untere
             Grenzwert für die farbige Anzeige einer Fließgeschwindigkeit liegt
             bei 0,2 m/s.
           </p>
