@@ -65,7 +65,7 @@ const Component = () => {
             .
           </p>
           <p>
-            Über jeder Hintergrundkarte wird das Kanalnetz (Haltung und Schachtbauwerke) dargestellt. Durch Anklicken der Schachtbauwerke (Punkte) können weitere Informationen zum Schacht abgefragt werden.
+            Über jeder Hintergrundkarte wird das Kanalnetz (Haltungen und Schachtbauwerke) dargestellt. Durch Anklicken der Schachtbauwerke (Punkte) können weitere Informationen zum Schacht abgefragt werden.
             Es wird zum einen die Schachtbezeichnung und zum anderen die Schachtdeckelhöhe [m ü. NHN] angezeigt.
           </p>
           <p>
