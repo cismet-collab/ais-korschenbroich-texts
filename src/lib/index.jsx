@@ -43,7 +43,7 @@ const getCollabedHelpComponentConfig = ({
   ];
   const menuFooter = (
     <Help99Footer
-      hintergrundkartenText="OSM light @ cismet | DOP © Geobasis NRW | Stadtkarte 2.0 © RVR | DTK Sammeldienst © Geobasis NRW"
+      hintergrundkartenText="Basiskarte © GeoBasis-DE/BKG | DOP © Geobasis NRW | Stadtkarte 2.0 © RVR | DTK Sammeldienst © Geobasis NRW"
       taglineModelling={
         <div>
           <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.0 | 2/2024):{" "}
